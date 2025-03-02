@@ -8,25 +8,25 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", None))
-API_HASH = getenv("API_HASH", None)
+API_ID = int(getenv("27627311", None))
+API_HASH = getenv("033d185a7dd6204b325c6087cb24a0e5", None)
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_TOKEN = getenv("7812942472:AAFHFUnOVd7EhMmjKREmf0F33kbXm44cCeo", None)
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
+MONGO_DB_URI = getenv("mongodb+srv://adarshpal12:adarshpal12@cluster0.vipoo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
+MUSIC_BOT_NAME = getenv("𝚨𝛈𝛂𝛈𝛄𝛂 ✘ ᴍ𝛖𝛅𝛊𝛓", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
+DURATION_LIMIT_MIN = int(getenv("800", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOGGER_ID = int(getenv("8077929567", None))
+LOG_GROUP_ID = int(getenv("-1002497049994", None))
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "5016109398"))
+OWNER_ID = int(getenv("OWNER_ID", "8077929567"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/learning_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/bots_club0")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Tfh_chat0")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -75,7 +75,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session
 STRING1 = getenv("STRING_SESSION",  None)
-STRING2 = getenv("STRING_SESSION2", None)
+STRING2 = getenv("BQFNtIsAnpQ1HqFGKmC07nrGGtQnNz63dWzwrkeLddYoZ3hKyV48cTJjqMzhx2lmsdmTPJMuY9n59Dn1HLHsivw5X2dRwR8kM7O1uUtxaD6kE4yhNKZOtvuWiSLl9Khv4V4gP6bYyHrYEaM-warwwLQIl4a6iEL4h1TA-SKMChvHYaDPRb8cIy5wRluvKmRF5d5jIPjDzfv_jywuxGhczG8WpB-QMa4VOy_Gzc_6Yx61cfd6j97z4yDF8GeU1r5cVQW5GaTQd2vtY3e3ZFqCJjee0eTbPaCr9i1b9yqNaWeL0gUldaMqCooNEYDiWGGWwCVMmiQpFfa2-020qZzGmkAQT9kJKAAAAAGmohhpAA", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
